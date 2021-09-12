@@ -4,4 +4,6 @@ package-lock.json
 yarn.lock
 
 .editorconfig
+.prettierrc
+src/
 test/
