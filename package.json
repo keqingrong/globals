@@ -1,0 +1,35 @@
+{
+  "name": "@keqingrong/globals",
+  "version": "0.0.0",
+  "description": "Global identifiers for rollup's `output.globals` and webpack's `externals`",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "browser": "dist/index.umd.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "build": "rollup -c && node build.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "global",
+    "globals",
+    "external",
+    "externals",
+    "rollup",
+    "webpack",
+    "umd"
+  ],
+  "author": "keqingrong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keqingrong/globals.git"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "clean-publish": "^2.2.0",
+    "rollup": "^2.56.3"
+  }
+}
