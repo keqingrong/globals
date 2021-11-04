@@ -17,6 +17,7 @@ const globals = {
 
   // camelCase
   classnames: 'classNames',
+  'fetch-jsonp': 'fetchJsonp',
   jquery: 'jQuery',
   'regenerator-runtime': 'regeneratorRuntime',
 
