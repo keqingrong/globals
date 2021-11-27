@@ -4,6 +4,7 @@ const globals = {
   underscore: '_',
 
   // PascalCase
+  'element-plus': 'ElementPlus',
   'prop-types': 'PropTypes',
   react: 'React',
   'react-dom': 'ReactDOM',
@@ -13,6 +14,8 @@ const globals = {
   redux: 'Redux',
   swiper: 'Swiper',
   vue: 'Vue',
+  'vue-router': 'VueRouter',
+  vuex: 'Vuex',
   zepto: 'Zepto',
 
   // camelCase
@@ -29,6 +32,9 @@ const globals = {
 
   // name conflict
   history: 'HistoryLibrary',
+
+  // exception
+  'element-ui': 'ELEMENT',
 
   // default or kebab-case
   antd: 'antd',
