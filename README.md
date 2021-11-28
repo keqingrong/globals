@@ -39,6 +39,19 @@ export default {
 const globals = require('@keqingrong/globals');
 const pkg = require('./package.json');
 
+module.exports = {
+  // ...
+  externals: globals,
+};
+```
+
+or
+
+```js
+// webpack.config.js
+const globals = require('@keqingrong/globals');
+const pkg = require('./package.json');
+
 const externals = {};
 Object.keys(pkg.dependencies).forEach(name => {
   if (globals[name]) {
@@ -52,7 +65,7 @@ Object.keys(pkg.dependencies).forEach(name => {
 
 module.exports = {
   // ...
-  externals: globals, // or `externals`,
+  externals,
 };
 ```
 
