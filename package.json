@@ -1,6 +1,6 @@
 {
   "name": "@keqingrong/globals",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Global identifiers for rollup's `output.globals` and webpack's `externals`",
   "files": [
     "dist"
@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "rollup -c && node build.js",
+    "prepack": "npm run build",
     "test": "ava"
   },
   "keywords": [
