@@ -1,7 +1,10 @@
 {
   "name": "@keqingrong/globals",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Global identifiers for rollup's `output.globals` and webpack's `externals`",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "browser": "dist/index.umd.js",
